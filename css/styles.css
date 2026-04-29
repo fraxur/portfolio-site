@@ -422,3 +422,17 @@ h2 {
     border-radius: 10px;
     border: 1px solid #2a2a38;
 }
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-icon {
+    height: 34px;
+    width: auto;
+}
+.site-logo span {
+    color: #A78BFA;
+}

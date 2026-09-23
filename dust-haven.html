@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dust Haven | Martin Fraser</title>
+    <meta name="description" content="Dust Haven is Martin Fraser's in-development Unity mobile survival game. Explore its scavenging and shelter loop, progression systems, narrative collectibles and real mobile screenshots.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="site-logo brand-logo">
+                <img src="assets/images/FX_Icon.png" alt="" class="brand-icon">
+                <span>Martin Fraser</span>
+            </a>
+            <nav class="site-nav" aria-label="Dust Haven page navigation">
+                <a href="index.html">Home</a>
+                <a href="#gameplay">Gameplay</a>
+                <a href="#systems">Systems</a>
+                <a href="#development">Development</a>
+                <a href="#screenshots">Screenshots</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="case-hero dust-hero" aria-labelledby="project-title">
+            <div class="container">
+                <a class="case-back" href="index.html#in-progress">← Back to current projects</a>
+                <p class="eyebrow">MOBILE GAME / IN DEVELOPMENT</p>
+                <h1 id="project-title">Dust Haven<span class="case-period">.</span></h1>
+                <p class="case-lead">Survive. Scavenge. Find your way back to camp.</p>
+                <p class="case-summary">A portrait-format survival arena game in which movement is your first defence. Dodge pursuing creatures, collect scrap, and choose when to return to the camp for temporary protection. Each run feeds into upgrades and discoveries that carry forward.</p>
+                <div class="case-meta" aria-label="Project details">
+                    <div><span>PLATFORM</span><strong>Android-focused · Portrait mobile</strong></div>
+                    <div><span>BUILT WITH</span><strong>Unity · C# · 2D gameplay / 3D visuals</strong></div>
+                    <div><span>CURRENT STATUS</span><strong>Version 0.2.0 prototype · Not released</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="screenshots" class="dust-gallery-section" aria-labelledby="screenshots-title">
+            <div class="container">
+                <h2 id="screenshots-title" class="dust-visually-hidden">Screenshots from the mobile build</h2>
+                <div class="dust-gallery">
+                    <figure class="dust-shot dust-shot--lead">
+                        <img src="assets/images/dust-haven-run-mobile.webp" alt="Dust Haven mobile gameplay: survivor evading a pursuing creature on cracked desert ground, with score and camp status visible" loading="eager" width="945" height="2048">
+                        <figcaption>Survive and scavenge <span>01 / GAMEPLAY</span></figcaption>
+                    </figure>
+                    <figure class="dust-shot">
+                        <img src="assets/images/dust-haven-menu-mobile.webp" alt="Dust Haven main menu showing a survival camp, account level, scrap balance and buttons for runs, upgrades and other progression screens" loading="lazy" width="945" height="2048">
+                        <figcaption>Prepare for the next run <span>02 / MAIN MENU</span></figcaption>
+                    </figure>
+                    <figure class="dust-shot">
+                        <img src="assets/images/dust-haven-results-mobile.webp" alt="Dust Haven run-complete screen displaying survival time, score, earned experience and navigation to retry or upgrades" loading="lazy" width="505" height="900">
+                        <figcaption>Review your progress <span>03 / RESULTS</span></figcaption>
+                    </figure>
+                </div>
+                <p class="dust-gallery-note">Screenshots supplied from the mobile prototype. They show existing screens, not a finished commercial release.</p>
+            </div>
+        </section>
+
+        <section id="gameplay" class="content-section case-section">
+            <div class="container case-reading">
+                <p class="eyebrow">01 / THE CORE LOOP</p>
+                <h2>The shelter buys time. Scavenging earns it back.</h2>
+                <p class="section-copy">A run starts near a home camp. The player moves through the arena, avoids enemies and collects scrap and temporary pickups. Entering the camp while it is ready triggers a defensive shockwave and a brief period of protection, but the refuge does not last. Collecting more scrap while it recharges creates a reason to leave safety and take calculated risks.</p>
+                <p class="section-copy">On death, a completed run settles earned scrap and experience, which can be used to improve the survivor before another attempt. The aim is a repeatable loop of movement decisions, resource management and gradual progression rather than a scripted campaign.</p>
+            </div>
+        </section>
+
+        <section id="systems" class="content-section case-section case-section-tint">
+            <div class="container">
+                <p class="eyebrow">02 / SYSTEMS &amp; DESIGN</p>
+                <h2>Simple controls, interacting systems.</h2>
+                <div class="project-grid case-feature-grid">
+                    <article class="project-card"><div class="project-card-content">
+                        <p class="project-tag">MOVEMENT &amp; PRESSURE</p>
+                        <h3>Evade rather than aim</h3>
+                        <p>Drag to move through the portrait arena. Pursuing enemies increase the pressure, while specialist enemies introduce charging attacks and hazardous areas that require a change of route.</p>
+                    </div></article>
+                    <article class="project-card"><div class="project-card-content">
+                        <p class="project-tag">RISK &amp; REWARD</p>
+                        <h3>Scavenge to recharge</h3>
+                        <p>Ordinary scrap and timed caches contribute to the run economy. After the camp's protection ends, collecting scrap restores its readiness, connecting a player's route through the arena to the next moment of safety.</p>
+                    </div></article>
+                    <article class="project-card"><div class="project-card-content">
+                        <p class="project-tag">PERSISTENT PROGRESSION</p>
+                        <h3>Make the next attempt different</h3>
+                        <p>Earn experience and scrap, buy permanent upgrades and consumables, and collect survivors and equipment. These systems give completed attempts a purpose beyond their score.</p>
+                    </div></article>
+                    <article class="project-card"><div class="project-card-content">
+                        <p class="project-tag">NARRATIVE &amp; ACCESSIBILITY</p>
+                        <h3>Discover the world in fragments</h3>
+                        <p>Collectible Signals reveal the mystery of HAVEN across multiple runs. The prototype also includes colour-vision palettes, a high-contrast option and non-colour gameplay cues, with hands-on accessibility testing still to do.</p>
+                    </div></article>
+                </div>
+            </div>
+        </section>
+
+        <section id="development" class="content-section case-section">
+            <div class="container case-reading">
+                <p class="eyebrow">03 / DEVELOPMENT &amp; NEXT STEPS</p>
+                <h2>Building a mobile game through iteration.</h2>
+                <p class="section-copy">I set the concept, gameplay goals and progression direction for Dust Haven and have been developing and reviewing the prototype with assistance from OpenAI Codex. The game combines a 2D gameplay layer with low-poly 3D presentation, a mobile touch interface and locally saved progression.</p>
+                <p class="section-copy">The current prototype includes its core survival loop, multiple enemy types, camp behaviour, upgrades, equipment and collectible story entries. Its game design document records the implemented systems separately from planned ideas; the presence of a feature in code is not the same as a finished, device-validated release.</p>
+                <p class="section-copy">The next priorities are hands-on testing on representative phones, checking balance and progression over longer sessions, improving the readability of the in-run HUD, and finishing interface and onboarding polish. Dust Haven is an active development project; no store release or public playable build is being claimed here.</p>
+                <div class="dust-project-note"><strong>My contribution:</strong> Concept and product direction, gameplay and progression requirements, visual and interface feedback, iterative testing and review of AI-assisted implementation. This page does not imply that every line of source code was independently hand-written.</div>
+            </div>
+        </section>
+
+        <section class="content-section case-section case-section-tint">
+            <div class="container">
+                <div class="case-demo-panel dust-closing-panel">
+                    <div>
+                        <p class="eyebrow">MORE PROJECTS</p>
+                        <h2>See the rest of my work.</h2>
+                        <p>Dust Haven is still in development. My portfolio also includes completed Unity work and a separate, interactive demonstration of a youth football management app.</p>
+                    </div>
+                    <div class="case-demo-actions">
+                        <a class="button button-primary" href="index.html#featured-projects">Explore featured projects</a>
+                        <a class="button button-secondary" href="meadowvale-juniors.html">See Meadowvale Juniors</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <h2>Get in touch</h2>
+            <p class="footer-copy">Interested in Dust Haven or my wider games and digital-product work?</p>
+            <div class="contact-links">
+                <a href="mailto:fraxur@outlook.com">Email</a>
+                <a href="https://github.com/fraxur" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/fraxur/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
